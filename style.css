@@ -1,0 +1,294 @@
+
+.bitcoin{
+    width:25px;
+    margin-top: -5px;
+}
+
+.line{
+    width:335px;
+    height:2px;
+    background-color: blue;
+    margin-left: 620px;
+}
+.line2{
+    width:335px;
+    height:2px;
+    background-color: blue;
+    margin-left: 620px;
+    margin-top: -40px;
+}
+a:hover{
+    color:red;
+}
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 3px solid lightgray;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+.home{
+    font-size:25px;
+    font-family: 'Happy Monkey', cursive;
+    color:black;
+    margin-left: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3C3B48;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top:63px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+    padding-left: 20px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  float: left;
+  width: 80%;
+    height:35px;
+  background: white;
+    margin-top: -72px;
+    margin-left: -340px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  border-left: none;
+  cursor: pointer;
+   height:35px;
+    margin-top: -72px;
+    margin-left: -100px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:#C2C2C2;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main2{
+    background-color: #15C88C;
+}
+.user{
+    border:1px solid black;
+    margin-top:0px;
+    font-size: 25px;
+    height:60px;
+    border-bottom: none;
+    border-top:none;
+    border-left:none;
+    background-color:#00D08A;
+    color:white;
+    width:280px;
+}
+.user:hover{
+background-color: lightgreen;
+}
+.user-img{
+float:left;
+height:60px;
+margin-left: -36px;
+    border-radius: 50%;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,latin-ext);
+* {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: gray;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 100;
+}
+
+body {
+  background: white;
+}
+
+table {
+  text-align: left;
+  width: 640px;
+  margin: 30px auto;
+  border-radius: 3px;
+  background-color:#00D08A;
+}
+table th {
+  padding: 10px;
+}
+table tr:nth-child(odd) {
+  background-color: #F5F7FA;
+}
+table td {
+  padding: 10px 15px;
+  color: #434A54;
+}
+
+.amount {
+  color: #DA4453;
+  text-align: right;
+}
+
+#button {
+  position: relative;
+  top: 0;
+  color: #F5F7FA;
+  padding: 20px;
+  text-align: center;
+  line-height: 24px;
+  width: 200px;
+  background-color: #4FC1E9;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 0 3px #4A89DC;
+  transition: 0.1s ease;
+}
+#button:active {
+  position: relative;
+  box-shadow: 0 0px #4A89DC;
+  top: 3px;
+  box-shadow: 0 0;
+}
+
+#form-box {
+  width: 650px;
+  margin: 30px auto;
+  padding-left: 15px;
+}
+
+form {
+  color: #fff;
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: auto;
+}
+form select, form input {
+  margin-bottom: 25px;
+  color: #434A54;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 0;
+}
+form selectactive, form inputactive {
+  border: 1px solid #4FC1E9;
+  transition: 0.2s ease;
+}
+form div {
+  display: inline-block;
+  margin-right: 10px;
+}
+form span {
+  font-size: 1.3em;
+  font-weight: 100;
+  display: inline-block;
+  width: 100px;
+}
+
+#type {
+  width: 50px;
+}
+
+#date {
+  width: 141px;
+}
+
+#amount {
+  width: 100px;
+}
+
+#if-empty {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+input{
+    background-color: #e8e8e8;
+}
