@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script scr="sript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -53,7 +54,7 @@
   
   <div class="input-type">
     <span>Name:</span> 
-      <input type="text" id="firstName input"  placeholder="What did you spend on?" onkeypress="input()"</div>                    
+      <input id="inputTextBox"  type="text" placeholder="What did you spend on?" >                    
 
   
   <div>
@@ -85,7 +86,16 @@
 
 
     
-    
+<script>
+    $(document).ready(function(){
+    $("#inputTextBox").keypress(function(event){
+        var inputValue = event.charCode;
+        if(!(inputValue >= 65 && inputValue <= 120) && (inputValue != 32 && inputValue != 0)){
+            event.preventDefault(),alert("Can't type in numbers");
+        }
+    });
+});
+    </script>    
 
     </body>
 </html>
