@@ -5,10 +5,13 @@
    <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script scr="sript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
     <head>
         <title>Expenses program</title>
@@ -17,10 +20,11 @@
     <body>
 <ul class="topnav">
   <li><a class="home active" href="#home"><img class="bitcoin" src="bitcoin.png">Expense</a></li>
-  <li class="right"><img src="andrew-masters2.png" class="user-img"><a href="#about" class="user">Andrew Masters</a></li>
+  <li class="right"><img src="andrew-masters2.png" class="user-img"><a href="#about" class="user" data-toggle="tooltip" title="Australian">Andrew Masters</a> </li>
 </ul>  
-   s
+       
    
+  
 <div class="sidenav">
   <a href="#about" class="main2">Dashboard</a>
   <a href="#services">Receipt Inbox</a>
@@ -94,6 +98,10 @@
             event.preventDefault(),alert("Can't type in numbers");
         }
     });
+});
+    
+  $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
 });
     </script>    
 
